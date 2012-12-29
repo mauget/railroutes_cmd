@@ -39,6 +39,7 @@ A Java 1.6 compiler level assumed throughout. You can run these classes directly
 + The From and to station IDs are integers taken from the range 1..133752.
 + The application displays a help blurb if it finds no input pair.
 + The application ignores bad input.
++ A route displays as a white line -- Google Earth zooms to accommodate.
 
 ![Train route example](https://raw.github.com/mauget/railroutes_cmd/master/RailRoute.png "Fiqure 1. Google Earth path")
 
