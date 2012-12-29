@@ -40,6 +40,6 @@ A Java 1.6 compiler level assumed throughout. You can run these classes directly
 + The application displays a help blurb if it finds no input pair.
 + The application ignores bad input.
 
- ![Train route example](https://github.com/mauget/railroutes_cmd/blob/master/RailRoute.png "Fiqure 1. Google Earth path")
+![Train route example](https://github.com/mauget/railroutes_cmd/blob/master/RailRoute.png "Fiqure 1. Google Earth path")
 
- [Lou.Mauget@keyholesoftware.com](mailto:Lou.Mauget@keyholesoftware.com)
+[Lou.Mauget@keyholesoftware.com](mailto:Lou.Mauget@keyholesoftware.com)
