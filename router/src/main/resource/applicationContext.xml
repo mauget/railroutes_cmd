@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+  
+  <bean id="dbWrapper" class="com.ramblerag.db.core.DbWrapper">
+  	<property name="graphDatabaseFactory" ref="graphDatabaseFactory"></property>
+  </bean>
+  
+  <bean id="router" class="com.ramblerag.db.route.Router">
+  	<property name="dbWrapper" ref="dbWrapper"></property>
+  </bean>
+  
+  <bean id="loader" class="com.ramblerag.db.util.Loader">
+  	<property name="dirRemover" ref="dirRemover"></property>
+  	<property name="dbWrapper" ref="dbWrapper"></property>
+  	<property name="dbInserter" ref="dbInserter"></property>
+  </bean>
+  
+  <bean id="indexDumper" class="com.ramblerag.db.util.IndexDumper">
+  </bean>
+  
+  <bean id="graphDatabaseFactory" class="org.neo4j.graphdb.factory.GraphDatabaseFactory">
+  </bean>
+  
+  <bean id="dbInserter" class="com.ramblerag.db.core.DbInserter">
+  </bean>
+  
+  <bean id="dirRemover" class="com.ramblerag.db.util.DirRemover">
+  </bean>
+
+</beans>
