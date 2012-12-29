@@ -41,4 +41,3 @@ A Java 1.6 compiler level assumed throughout. You can run these classes directly
 + The application ignores bad input.
 
 ![Google Earth train route example](https://github.com/mauget/railroutes_cmd/blob/master/router/RailRoute.png)
-
