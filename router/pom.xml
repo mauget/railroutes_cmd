@@ -16,25 +16,26 @@
 		<junit-version>4.10</junit-version>
 		<log4j-version>1.2.17</log4j-version>
 		<powermock.version>1.4.12</powermock.version>
+		<spring-version>4.3.20.RELEASE</spring-version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>3.1.2.RELEASE</version>
+			<version>${spring-version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
-			<version>3.1.2.RELEASE</version>
+			<version>${spring-version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-beans</artifactId>
-			<version>3.1.2.RELEASE</version>
+			<version>${spring-version}</version>
 		</dependency>
 
 		<dependency>
